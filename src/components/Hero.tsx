@@ -12,7 +12,7 @@ const Hero = () => {
   {/* Image with blur effect */}
   <div className="relative overflow-hidden">
     <img
-      className="w-full h-full object-cover filter blur-sm"
+      className="w-full h-screen object-cover sm:h-auto filter blur-sm"
       src="/levels-club.svg"
       alt="levels club image"
     />
