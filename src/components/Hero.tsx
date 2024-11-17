@@ -5,8 +5,8 @@ const Hero = () => {
     <>
    <div className="relative text-white">
   {/* Text above the image */}
-  <div className="absolute inset-0 flex items-center justify-center z-10">
-    <h1 className="lg:text-5xl text-4xl font-bold"><span className="text-purple-200">Levels</span> Club</h1>
+  <div className="absolute inset-0 flex items-top justify-center z-10">
+    <h1 className="pt-[300px] lg:text-5xl text-[60px] text-black font-bold object-cover"><span className="">Levels <br /></span> <span className="flex pt-10">Club</span></h1>
   </div>
 
   {/* Image with blur effect */}
